@@ -1,0 +1,25 @@
+{
+  "name": "backend_gestion_mission_audit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndeyegalassdiagne30-collab/backend_gestion_mission_audit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ndeyegalassdiagne30-collab/backend_gestion_mission_audit/issues"
+  },
+  "homepage": "https://github.com/ndeyegalassdiagne30-collab/backend_gestion_mission_audit#readme",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
