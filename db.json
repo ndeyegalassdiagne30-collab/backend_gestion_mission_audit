@@ -4,8 +4,8 @@
       "id": 1,
       "raison_sociale": "SENTECH SARL",
       "ninea": "SN123456789",
-      "adresse": "Dakar",
-      "email": "sentech@gmail.com",
+      "adresse": "Dakar, Sénégal",
+      "email": "contact@sentech.sn",
       "telephone": "771234567",
       "date_creation": "2026-07-01",
       "statut": "actif"
@@ -14,9 +14,9 @@
       "id": 2,
       "raison_sociale": "AFRICA BUSINESS",
       "ninea": "SN987654321",
-      "adresse": "Thiès",
-      "email": "africabusiness@gmail.com",
-      "telephone": "781111111",
+      "adresse": "Thiès, Sénégal",
+      "email": "info@africabusiness.sn",
+      "telephone": "781112233",
       "date_creation": "2026-07-02",
       "statut": "actif"
     }
@@ -26,9 +26,9 @@
       "id": 1,
       "nom": "Diagne",
       "prenom": "Ndeye",
-      "email": "admin@gmail.com",
+      "email": "admin@audit.sn",
       "mot_de_passe": "admin123",
-      "telephone": "772222222",
+      "telephone": "770000001",
       "photo": "https://res.cloudinary.com/dduq39adm/image/upload/v1783188494/koovqu0vdllyzy7hq2fj.jpg",
       "date_creation": "2026-07-01",
       "role": "administrateur",
@@ -50,9 +50,9 @@
       "id": 3,
       "nom": "Diagne",
       "prenom": "Galass",
-      "email": "auditeurgalass@gmail.com",
-      "mot_de_passe": "audit123",
-      "telephone": "773333333",
+      "email": "auditeur1@gmail.com",
+      "mot_de_passe": "auditeur1123",
+      "telephone": "770000003",
       "photo": "https://res.cloudinary.com/dduq39adm/image/upload/v1783188940/s5jczfjymzilqti7xwgd.jpg",
       "date_creation": "2026-07-01",
       "role": "auditeur",
@@ -61,11 +61,11 @@
     {
       "id": 4,
       "nom": "Diagne",
-      "prenom": "Sokhna",
-      "email": "auditeursokhna@gmail.com",
-      "mot_de_passe": "audit123",
-      "telephone": "774444444",
-      "photo": "https://res.cloudinary.com/dduq39adm/image/upload/v1783188819/b8i8wiaf0rsxfsjseeym.jpg",
+      "prenom": "Awa",
+      "email": "auditeur2@audit.sn",
+      "mot_de_passe": "auditeur2123",
+      "telephone": "770000004",
+      "photo": "https://res.cloudinary.com/dduq39adm/image/upload/v1783188940/s5jczfjymzilqti7xwgd.jpg",
       "date_creation": "2026-07-01",
       "role": "auditeur",
       "statut": "actif"
@@ -74,12 +74,12 @@
   "missions": [
     {
       "id": 1,
-      "titre": "Audit financier",
+      "titre": "Audit financier 2026",
       "description": "Audit des états financiers",
       "date_debut": "2026-07-10",
       "date_fin_prevue": "2026-07-25",
       "date_fin_reelle": null,
-      "avancement": 35,
+      "avancement": 50,
       "statut": "en_cours",
       "date_creation": "2026-07-01",
       "clientId": 1,
@@ -88,67 +88,49 @@
         "3",
         "4"
       ]
-    }
-  
-  ],
-  "documents": [
-    {
-      "id": 1,
-      "nom_fichier": "bilan2025",
-      "chemin": "/documents/bilan2025",
-      "description": "Bilan comptable",
-      "date_upload": "2026-07-11",
-      "missionId": 1
-     
     },
     {
       "id": 2,
-      "nom_fichier": "factures",
-      "chemin": "/documents/factures",
-      "description": "Factures du client",
-      "date_upload": "2026-07-12",
-      "missionId": 1
+      "titre": "Audit financier 2025",
+      "description": "Audit des états financiers",
+      "date_debut": "2026-07-15",
+      "date_fin_prevue": "2026-08-05",
+      "date_fin_reelle": null,
+      "avancement": 10,
+      "statut": "en_relecture",
+      "date_creation": "2026-07-02",
+      "clientId": 2,
+      "expertComptableId": 2,
+      "auditeurs": [
+        "4"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-0a0775c5-c5d1-4204-a7aa-a7825fb42c16",
+      "nom_fichier": "Fiche_revision_SGBD_Licence2.docx",
+      "chemin": "https://res.cloudinary.com/dduq39adm/raw/upload/v1783516120/vhopeulvb3wmxy6m50dh.docx",
+      "description": "rqpport final",
+      "date_upload": "2026-07-08",
+      "missionId": "1",
+      "taille": "27.2 Ko"
     }
   ],
   "journaux_activites": [
     {
       "id": 1,
       "action": "Connexion",
-      "date_action": "2026-07-01 ",
+      "date_action": "2026-07-01 08:00",
       "utilisateurId": 1
     },
     {
       "id": 2,
       "action": "Création d'une mission",
-      "date_action": "2026-07-01 ",
+      "date_action": "2026-07-01 09:30",
       "utilisateurId": 2
-    },
-    {
-      "id": 3,
-      "action": "Ajout d'un document",
-      "date_action": "2026-07-11 ",
-      "utilisateurId": 3
-    },
-   
-    {
-      "id": 4,
-      "action": "Modification du client SENTECH SARL",
-      "date_action": "2026-07-04",
-      "utilisateurId": 1
-    },
-    {
-      "id": 5,
-      "action": "Modification de l'utilisateur Ndeye Diagne",
-      "date_action": "2026-07-04",
-      "utilisateurId": 1
-    },
-    {
-      "id": 6,
-      "action": "Modification de l'utilisateur Galass Diagne",
-      "date_action": "2026-07-04",
-      "utilisateurId": 1
     }
-   
+
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
